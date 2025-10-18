@@ -1,3 +1,7 @@
+import streamlit as st
+
+st.title("💪 Beden Kitle İndeksi Hesaplama")
+
 print("Araç yolculuk maliyeti hesaplama")
 
 litre_fiyatı =float(input("Benzin Litre Fiyatını Giriniz(TL) : "))
@@ -11,5 +15,6 @@ print("Hesaplanıyor")
 
 print("Gereken Yakıt Miktarı : {}".format(toplam_yakıt))
 print("Ödemeniz Gereken Fiyat : {}".format(toplam_odeme))
+
 
 
